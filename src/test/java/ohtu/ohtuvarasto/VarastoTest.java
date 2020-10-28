@@ -53,7 +53,7 @@ public class VarastoTest {
     @Test
     public void eiNegatiivistaAlkuSaldoa() {
         Varasto varastoNegatiivinen = new Varasto(-20, -30);
-        assertEquals(5, varastoNegatiivinen.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varastoNegatiivinen.getSaldo(), vertailuTarkkuus);
     }
     
     @Test
